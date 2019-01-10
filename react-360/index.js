@@ -7,7 +7,7 @@ import {
   asset,
   NativeModules
 } from 'react-360';
-const {AudioModule} = new NativeModules;
+/*const {AudioModule} = new NativeModules;
 
 // Play a sound to the user's right (3 meters down the positive x-axis)
 AudioModule.createAudio('environment', {
@@ -16,7 +16,7 @@ AudioModule.createAudio('environment', {
 });
 AudioModule.play('environment', {
   position: [3, 0, 0],
-});
+});/**/
 
 export default class react_360 extends React.Component {
   render() {
