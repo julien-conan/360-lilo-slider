@@ -12,7 +12,8 @@ export default class react_360 extends React.Component {
       <View style={styles.panel}>
         <View style={styles.greetingBox}>
           <Text style={styles.greeting}>
-            Welcome to React 360
+            Baptême de Lilo et  
+            24/06/2018
           </Text>
         </View>
       </View>
