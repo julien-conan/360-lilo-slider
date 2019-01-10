@@ -4,19 +4,7 @@ import {
   StyleSheet,
   Text,
   View,
-  asset,
-  NativeModules
 } from 'react-360';
-const {AudioModule} = new NativeModules;
-
-// Play a sound to the user's right (3 meters down the positive x-axis)
-AudioModule.createAudio('environment', {
-  source: asset('sample.mp3'),
-  is3d: true,
-});
-AudioModule.play('environment', {
-  position: [3, 0, 0],
-});
 
 export default class react_360 extends React.Component {
   render() {
@@ -44,8 +32,8 @@ const styles = StyleSheet.create({
   },
   greetingBox: {
     padding: 20,
-    backgroundColor: '#FFFFFF',
-    borderColor: '#BBBBBB',
+    backgroundColor: '#000000',
+    borderColor: '#639dda',
     borderWidth: 2,
   },
   greeting: {
