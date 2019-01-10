@@ -44,12 +44,12 @@ const styles = StyleSheet.create({
   },
   greetingBox: {
     padding: 20,
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#FFFFFFF',
     borderColor: '#BBBBBB',
     borderWidth: 2,
   },
   greeting: {
-    fontSize: 30,
+    fontSize: 24,
   },
 });
 
